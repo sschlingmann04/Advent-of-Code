@@ -2,7 +2,7 @@
 
 from hashlib import md5
 
-# Part 1
+# Parts 1 and 2 (determined by the match variable)
 def findSecretNumber(key: str, match: str):
     num = 1
     while True:
