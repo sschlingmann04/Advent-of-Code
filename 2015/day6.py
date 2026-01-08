@@ -45,6 +45,7 @@ def setupLights(instruction: str, start: str, end: str, brightness = False):
         else:
             raise ValueError("Unexpected instruction!")
 
+
 # Example main program
 if __name__ == "__main__":
     try:
