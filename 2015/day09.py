@@ -55,7 +55,7 @@ def findLongestPath(graph: dict):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day9.txt", "r") as f:
+        with open("2015/input_files/day09.txt", "r") as f:
             line = f.readline()
             graph = {}
             while line:

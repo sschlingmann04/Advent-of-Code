@@ -15,7 +15,7 @@ def findSecretNumber(key: str, match: str):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day4.txt", "r") as f:
+        with open("2015/input_files/day04.txt", "r") as f:
             key = f.read()
     except FileNotFoundError:
         print(f"Error: File was not found!")

@@ -42,7 +42,7 @@ def isNiceString2(s: str):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day5.txt", "r") as f:
+        with open("2015/input_files/day05.txt", "r") as f:
             line = f.readline()
             strings = []
             while line:

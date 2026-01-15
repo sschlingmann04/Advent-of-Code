@@ -49,7 +49,7 @@ def setupLights(instruction: str, start: str, end: str, brightness = False):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day6.txt", "r") as f:
+        with open("2015/input_files/day06.txt", "r") as f:
             line = f.readline()
             instruction_list = []
             while line:

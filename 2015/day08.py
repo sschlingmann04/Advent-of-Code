@@ -25,7 +25,7 @@ def level3_minus_level2(s: str):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day8.txt", "r") as f:
+        with open("2015/input_files/day08.txt", "r") as f:
             line = f.readline()
             strings = []
             while line:

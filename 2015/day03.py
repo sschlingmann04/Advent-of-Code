@@ -48,7 +48,7 @@ def countUniqueHouses(directions: str, santa_count: int):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day3.txt", "r") as f:
+        with open("2015/input_files/day03.txt", "r") as f:
             directions = f.read()
     except FileNotFoundError:
         print(f"Error: File was not found!")

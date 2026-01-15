@@ -130,7 +130,7 @@ def assembleCircuit(instruction: str, output: str):
 # Example main program
 if __name__ == "__main__":
     try:
-        with open("2015/input_files/day7.txt", "r") as f:
+        with open("2015/input_files/day07.txt", "r") as f:
             line = f.readline()
             circuit = {}
             while line:
