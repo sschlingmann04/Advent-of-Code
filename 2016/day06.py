@@ -1,6 +1,6 @@
 # Day 6: Signals and Noise
 
-# Helper function; reaarranges the messages by column/position
+# Helper function; rearranges the messages by column/position
 def rearrangeMessages(messages: list[str]):
     chars_by_position = []
     position_list = []
@@ -22,7 +22,7 @@ def generateFrequencyTable(chars_by_position: list[str]):
         for c in chars:
             if c not in found[i]:
                 count = chars.count(c)
-                freq[i][count] = c  # There should only be one character per position that is the most frequent, so it is safe to only store the most recent character per count
+                freq[i][count] = c  # There should only be one character per position that is most/least frequent, so it is safe to only store the most recent character per count
                 found[i].add(c)
     
     return freq
@@ -34,7 +34,7 @@ def decodeMessage(messages: list[str], highest_frequency: bool):
     decoded_msg = []
 
     for freq_by_pos in freq_table:
-        # Sorts the frequency table for this position by the highest count first and appends the character stored there; this represents the most common character for each column
+        # Sorts the frequency table for this position and appends the character stored there; this represents the most/least common character for each column
         decoded_msg.append(freq_by_pos[sorted(freq_by_pos, reverse=highest_frequency)[0]])
     
     return "".join(decoded_msg)
